@@ -596,7 +596,7 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.0.6.tgz#023d72a5c4531b4ce204528971700a78a85a0c50"
   integrity sha512-Myxw//kzromB9yWgS8qYGuGVf91oBUUJpNvy5eM50sqvmKLbKjwLxohJnkWGTeeI9v9IBMtPLxz5Gc60FIfvCA==
 
-"@tailwindcss/typography@^0.4.1":
+"@tailwindcss/typography@0.4.1":
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/@tailwindcss/typography/-/typography-0.4.1.tgz#51ddbceea6a0ee9902c649dbe58871c81a831212"
   integrity sha512-ovPPLUhs7zAIJfr0y1dbGlyCuPhpuv/jpBoFgqAc658DWGGrOBWBMpAWLw2KlzbNeVk4YBJMzue1ekvIbdw6XA==
@@ -995,7 +995,7 @@ async-retry@^1.3.1:
   dependencies:
     retry "0.12.0"
 
-autoprefixer@^10.2.6:
+autoprefixer@10.2.6:
   version "10.2.6"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.2.6.tgz#aadd9ec34e1c98d403e01950038049f0eb252949"
   integrity sha512-8lChSmdU6dCNMCQopIf4Pe5kipkAGj/fvTMslCsih0uHpOrXOPUEVOmYMMqmw3cekQkSD7EhIeuYl5y0BLdKqg==
@@ -2217,7 +2217,7 @@ find-up@^5.0.0:
     locate-path "^6.0.0"
     path-exists "^4.0.0"
 
-firebase-admin@^9.10.0:
+firebase-admin@9.10.0:
   version "9.10.0"
   resolved "https://registry.yarnpkg.com/firebase-admin/-/firebase-admin-9.10.0.tgz#7705003c5b01c01503b6a6cb0af9ef5a533143ed"
   integrity sha512-4mB15zkzSpnLxpBrWJr7ad68ydYB/MMkS53N2XxfFwgz9QuFVCyHhznAno6FP7v+BtZkEJPdVd36nbH1yKS1UQ==
@@ -2462,7 +2462,7 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
   integrity sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==
 
-gray-matter@^4.0.3:
+gray-matter@4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/gray-matter/-/gray-matter-4.0.3.tgz#e893c064825de73ea1f5f7d88c7a9f7274288798"
   integrity sha512-5v6yZd4JK3eMI3FqqCouswVqwugaA9r4dNZB1wwcmrD02QkV5H0y7XBQW8QwQqEaZY1pM9aqORSORhJRdNK44Q==
@@ -3421,7 +3421,7 @@ mdurl@^1.0.0:
   resolved "https://registry.yarnpkg.com/mdurl/-/mdurl-1.0.1.tgz#fe85b2ec75a59037f2adfec100fd6c601761152e"
   integrity sha1-/oWy7HWlkDfyrf7BAP1sYBdhFS4=
 
-mdx-prism@^0.3.3:
+mdx-prism@0.3.3:
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/mdx-prism/-/mdx-prism-0.3.3.tgz#cd8651f1fa0f82fe43715ef19571e2697aa74d70"
   integrity sha512-1Q4eIb5lbmZx0NC4pdeJqUy79tEV1tX5X//pjouaoBJfzPelGpMxxd57+dU2TnRYzHsGa4IHTcsA40H2cTFyAg==
@@ -3538,7 +3538,7 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-mdx-remote@^3.0.2:
+next-mdx-remote@3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/next-mdx-remote/-/next-mdx-remote-3.0.2.tgz#7e1159b4eb8a6bdd4000c0b6e6631f94d8683f04"
   integrity sha512-imLrrw6c/Hi1BKRyJE9yLhk45N5zzw+/CxSQRHOAByYUSOhd+DNjUaqm2jtd+/GgxJeYB1d3fJPXmvUZTez1MQ==
@@ -4053,7 +4053,7 @@ postcss@8.2.13:
     nanoid "^3.1.22"
     source-map "^0.6.1"
 
-postcss@^8.1.6, postcss@^8.2.1, postcss@^8.3.5:
+postcss@8.3.5, postcss@^8.1.6, postcss@^8.2.1:
   version "8.3.5"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.5.tgz#982216b113412bc20a86289e91eb994952a5b709"
   integrity sha512-NxTuJocUhYGsMiMFHDUkmjSKT3EdH4/WbGF6GCi1NDGk+vbcUTun4fpbOqaPtD8IIsztA2ilZm2DhYCuyN58gA==
@@ -4330,7 +4330,7 @@ readdirp@~3.6.0:
   dependencies:
     picomatch "^2.2.1"
 
-reading-time@^1.3.0:
+reading-time@1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/reading-time/-/reading-time-1.3.0.tgz#d13e74431589a4a9038669f24d5acbc08bbb015d"
   integrity sha512-RJ8J5O6UvrclfZpcPSPuKusrdRfoY7uXXoYOOdeswZNtSkQaewT3919yz6RyloDBR+iwcUyz5zGOUjhgvfuv3g==
@@ -4385,7 +4385,7 @@ rehype-stringify@^8.0.0:
   dependencies:
     hast-util-to-html "^7.1.1"
 
-rehype@^11.0.0:
+rehype@11.0.0:
   version "11.0.0"
   resolved "https://registry.yarnpkg.com/rehype/-/rehype-11.0.0.tgz#d81729e65f4ac2b26f5de0b6bafc257eb0780e1f"
   integrity sha512-qXqRqiCFJD5CJ61CSJuNImTFrm3zVkOU9XywHDwrUuvWN74MWt72KJ67c5CM5x8g0vGcOkRVCrYj85vqkmHulQ==
@@ -4394,7 +4394,7 @@ rehype@^11.0.0:
     rehype-stringify "^8.0.0"
     unified "^9.0.0"
 
-remark-autolink-headings@^6.0.1:
+remark-autolink-headings@6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/remark-autolink-headings/-/remark-autolink-headings-6.0.1.tgz#074470b8ec7714a0f06fa151e293152bf9723df9"
   integrity sha512-LTV5G5NMjypHEr14tMNJ36yrP+xwT7mejJelZOPXKiF5WvRH9o36zXnr2QGqfms2yVASNpDaC9NBOwKlJJKuQw==
@@ -4402,7 +4402,7 @@ remark-autolink-headings@^6.0.1:
     extend "^3.0.0"
     unist-util-visit "^2.0.0"
 
-remark-code-titles@^0.1.2:
+remark-code-titles@0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/remark-code-titles/-/remark-code-titles-0.1.2.tgz#ae41b47c517eae4084c761a59a60df5f0bd54aa8"
   integrity sha512-KsHQbaI4FX8Ozxqk7YErxwmBiveUqloKuVqyPG2YPLHojpgomodWgRfG4B+bOtmn/5bfJ8khw4rR0lvgVFl2Uw==
@@ -4450,7 +4450,7 @@ remark-parse@8.0.3:
     vfile-location "^3.0.0"
     xtend "^4.0.1"
 
-remark-slug@^6.0.0:
+remark-slug@6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/remark-slug/-/remark-slug-6.0.0.tgz#2b54a14a7b50407a5e462ac2f376022cce263e2c"
   integrity sha512-ln67v5BrGKHpETnm6z6adlJPhESFJwfuZZ3jrmi+lKTzeZxh2tzFzUfDD4Pm2hRGOarHLuGToO86MNMZ/hA67Q==
@@ -4961,7 +4961,7 @@ supports-color@^8.0.0:
   dependencies:
     has-flag "^4.0.0"
 
-swr@^0.5.6:
+swr@0.5.6:
   version "0.5.6"
   resolved "https://registry.yarnpkg.com/swr/-/swr-0.5.6.tgz#70bfe9bc9d7ac49a064be4a0f4acf57982e55a31"
   integrity sha512-Bmx3L4geMZjYT5S2Z6EE6/5Cx6v1Ka0LhqZKq8d6WL2eu9y6gHWz3dUzfIK/ymZVHVfwT/EweFXiYGgfifei3w==
@@ -4980,7 +4980,7 @@ table@^6.0.9:
     string-width "^4.2.0"
     strip-ansi "^6.0.0"
 
-tailwindcss@^2.2.4:
+tailwindcss@2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-2.2.4.tgz#6a2e259b1e26125aeaa7cdc479963fd217c308b0"
   integrity sha512-OdBCPgazNNsknSP+JfrPzkay9aqKjhKtFhbhgxHgvEFdHy/GuRPo2SCJ4w1SFTN8H6FPI4m6qD/Jj20NWY1GkA==
